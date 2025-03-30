@@ -252,7 +252,7 @@ kubectl create -f xcmetrics-jobs-deployment.yaml
 kubectl create -f xcmetrics-jobs-service.yaml
 ```
 
-If you want to use our [Web UI for Backstage](https://github.com/backstage/backstage/tree/master/plugins/xcmetrics), deploy the Scheduled Jobs:
+If you want to use our [Web UI for Backstage](https://github.com/backstage/community-plugins/tree/main/workspaces/xcmetrics/plugins/xcmetrics), deploy the Scheduled Jobs:
 ```shell
 kubectl create -f xcmetrics-scheduled-jobs-deployment.yaml
 kubectl create -f xcmetrics-scheduled-jobs-service.yaml

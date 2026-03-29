@@ -16,8 +16,8 @@ let package = Package(
         .library(name: "XCMetricsUtils", targets: ["XCMetricsUtils"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/MobileNativeFoundation/XCLogParser", from: "0.2.38"),
-        .package(url: "https://github.com/apple/swift-tools-support-core.git", exact: "0.2.7"),
+        .package(url: "https://github.com/MobileNativeFoundation/XCLogParser", from: "0.2.41"),
+        .package(url: "https://github.com/apple/swift-tools-support-core.git", from: "0.2.8"),
         .package(url: "https://github.com/grpc/grpc-swift.git", exact: "1.0.0-alpha.9"),
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.32.3"),
         .package(url: "https://github.com/apple/swift-nio-http2.git", from: "1.15.0"),
@@ -26,6 +26,7 @@ let package = Package(
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.3.0"),
         .package(url: "https://github.com/jpsim/Yams.git", from: "3.0.0"),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.2.0"),
+        .package(url: "https://github.com/vapor/multipart-kit.git", from: "4.7.1"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.65.2"),
         .package(url: "https://github.com/vapor/fluent.git", from: "4.5.0"),
         .package(url: "https://github.com/vapor/fluent-postgres-driver.git", from: "2.4.0"),
@@ -124,3 +125,4 @@ let package = Package(
         ]),
     ]
 )
+

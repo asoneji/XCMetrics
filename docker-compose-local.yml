@@ -31,7 +31,8 @@ services:
       retries: 3
 
   xcmetrics:
-    image: spotify/xcmetrics:latest
+    #image: spotify/xcmetrics:latest
+    image: xcmetrics-xcode16
     depends_on:
       redis:
         condition: service_healthy
